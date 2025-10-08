@@ -1,10 +1,9 @@
-// Load environment variables from .env file
 import dotenv from 'dotenv';
-dotenv.config();
+import path from 'path';
+dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 
 // FIX: Changed import style to use `express.Request` and `express.Response` to resolve type conflicts.
 import express from 'express';
-import path from 'path';
 import fs from 'fs';
 import { tmpdir } from 'os';
 import { spawn } from 'child_process';

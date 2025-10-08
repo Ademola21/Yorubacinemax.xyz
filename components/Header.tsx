@@ -68,7 +68,7 @@ const Header: React.FC = () => {
             </button>
             {currentUser ? (
               <div className="relative">
-                <button onClick={() => setIsProfileOpen(!isProfileOpen)} className="flex items-center justify-center w-10 h-10 bg-gray-700 rounded-full hover:ring-2 hover:ring-green-500 transition-all">
+                <button onClick={() => setIsProfileOpen(!isProfileOpen)} aria-label="Open user menu" className="flex items-center justify-center w-10 h-10 bg-gray-700 rounded-full hover:ring-2 hover:ring-green-500 transition-all">
                   {currentUser.profilePic ? (
                     <img src={currentUser.profilePic} alt="Profile" className="w-full h-full object-cover rounded-full" />
                   ) : (

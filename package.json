@@ -10,7 +10,7 @@
     "start": "node dist/server.js",
     "dev": "npx concurrently \"npm:dev:client\" \"npm:dev:server\"",
     "dev:client": "npx esbuild src/index.tsx --bundle --outfile=public/dist/index.js --loader:.tsx=tsx --jsx=automatic --watch",
-    "dev:server": "npx ts-node-dev --respawn --transpile-only server.ts",
+    "dev:server": "npx ts-node-dev --respawn --transpile-only --require dotenv/config server.ts",
     "vps:build": "npm run build",
     "vps:start": "NODE_ENV=production npm start",
     "vps:dev": "NODE_ENV=development npm run dev",

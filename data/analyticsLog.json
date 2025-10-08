@@ -1,33 +1,6 @@
 [
   {
     "type": "VISIT",
-    "timestamp": "2025-10-05T19:22:20.462Z"
-  },
-  {
-    "type": "VISIT",
-    "timestamp": "2025-10-05T19:22:20.465Z"
-  },
-  {
-    "type": "VISIT",
-    "timestamp": "2025-10-05T19:22:20.466Z"
-  },
-  {
-    "type": "MOVIE_CLICK",
-    "payload": {
-      "movieTitle": "King of Thieves (Ogundabede)"
-    },
-    "timestamp": "2025-10-05T19:22:20.469Z"
-  },
-  {
-    "type": "VISIT",
-    "timestamp": "2025-10-05T19:25:20.466Z"
-  },
-  {
-    "type": "VISIT",
-    "timestamp": "2025-10-05T19:25:20.468Z"
-  },
-  {
-    "type": "VISIT",
     "timestamp": "2025-10-05T19:25:20.478Z"
   },
   {
@@ -2385,5 +2358,29 @@
   {
     "type": "VISIT",
     "timestamp": "2025-10-06T19:49:29.704Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-08T13:44:28.454Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-08T13:44:28.456Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-08T13:44:28.457Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-08T13:47:28.456Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-08T13:47:28.458Z"
+  },
+  {
+    "type": "SIGNUP",
+    "timestamp": "2025-10-08T13:47:28.465Z"
   }
 ]

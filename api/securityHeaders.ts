@@ -25,16 +25,17 @@ export function securityHeadersMiddleware(req: express.Request, res: express.Res
         'Content-Security-Policy',
         [
             "default-src 'self'",
-            "script-src 'self' https://cdn.jsdelivr.net",
-            "style-src 'self' https://fonts.googleapis.com",
-            "img-src 'self' data: https:",
+            "script-src 'self' https://cdn.jsdelivr.net https://aistudiocdn.com https://cdn.tailwindcss.com",
+            "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+            "img-src 'self' data: https: https://picsum.photos",
             "font-src 'self' data: https://fonts.gstatic.com",
-            "connect-src 'self' https:",
-            "media-src 'self' blob: https:",
+            "connect-src 'self' https: https://co.wuk.sh",
+            "media-src 'self' blob: https: https://test-streams.mux.dev",
             "object-src 'none'",
             "base-uri 'self'",
             "form-action 'self'",
-            "frame-ancestors 'self'"
+            "frame-ancestors 'self'",
+            "frame-src https://www.youtube.com"
         ].join('; ')
     );
     

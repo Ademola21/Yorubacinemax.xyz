@@ -1,39 +1,6 @@
 [
   {
     "type": "VISIT",
-    "timestamp": "2025-10-05T19:25:20.478Z"
-  },
-  {
-    "type": "MOVIE_CLICK",
-    "payload": {
-      "movieTitle": "Gangs of Lagos"
-    },
-    "timestamp": "2025-10-05T19:25:20.480Z"
-  },
-  {
-    "type": "VISIT",
-    "timestamp": "2025-10-05T21:21:01.164Z"
-  },
-  {
-    "type": "MOVIE_CLICK",
-    "payload": {
-      "movieTitle": "King of Thieves (Ogundabede)"
-    },
-    "timestamp": "2025-10-05T21:21:01.165Z"
-  },
-  {
-    "type": "MOVIE_CLICK",
-    "payload": {
-      "movieTitle": "Gangs of Lagos"
-    },
-    "timestamp": "2025-10-05T21:21:01.167Z"
-  },
-  {
-    "type": "VISIT",
-    "timestamp": "2025-10-05T21:32:59.724Z"
-  },
-  {
-    "type": "VISIT",
     "timestamp": "2025-10-05T21:32:59.726Z"
   },
   {
@@ -2382,5 +2349,35 @@
   {
     "type": "SIGNUP",
     "timestamp": "2025-10-08T13:47:28.465Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-18T12:45:26.828Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-18T12:45:26.829Z"
+  },
+  {
+    "type": "MOVIE_CLICK",
+    "payload": {
+      "movieTitle": "Gangs of Lagos"
+    },
+    "timestamp": "2025-10-18T12:45:26.830Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-18T12:48:26.828Z"
+  },
+  {
+    "type": "VISIT",
+    "timestamp": "2025-10-18T12:48:26.829Z"
+  },
+  {
+    "type": "MOVIE_CLICK",
+    "payload": {
+      "movieTitle": "Jagun Jagun (The Warrior)"
+    },
+    "timestamp": "2025-10-18T12:48:26.830Z"
   }
 ]

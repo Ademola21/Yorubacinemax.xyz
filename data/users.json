@@ -23,5 +23,13 @@
     "username": "YorubaCenimax",
     "passwordHash": "$2b$12$4aExShX93LuZYY5JnT4f.uO5nuEIYIWo9IxXMKgK41AwmFF8Gw7Me",
     "role": "user"
+  },
+  {
+    "id": "user_1760791526718",
+    "name": "Test User",
+    "email": "testuser@gmail.com",
+    "username": "testuser123",
+    "passwordHash": "$2b$12$Z/6Os4Fu6noLQMF5nZ72G.QTT7CeuO/P9H4RZbXMBhaQ4XrsqJ7A2",
+    "role": "user"
   }
 ]
